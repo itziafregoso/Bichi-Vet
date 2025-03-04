@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BichiVet", "BichiVet.csproj", "{13274E41-7F36-4A44-AFBA-74C17A8CE111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13274E41-7F36-4A44-AFBA-74C17A8CE111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13274E41-7F36-4A44-AFBA-74C17A8CE111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13274E41-7F36-4A44-AFBA-74C17A8CE111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13274E41-7F36-4A44-AFBA-74C17A8CE111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFA9167F-0346-4D02-8CAB-A2FC40368873}
+	EndGlobalSection
+EndGlobal

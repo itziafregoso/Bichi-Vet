@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13274E41-7F36-4A44-AFBA-74C17A8CE111}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BichiVet</RootNamespace>
+    <AssemblyName>BichiVet</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministrarDueño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarDueño.Designer.cs">
+      <DependentUpon>AdministrarDueño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarDueño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarDueño.Designer.cs">
+      <DependentUpon>AgregarDueño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarEmpleado.Designer.cs">
+      <DependentUpon>AgregarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarMascota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarMascota.Designer.cs">
+      <DependentUpon>AgregarMascota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarTipoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarTipoEmpleado.Designer.cs">
+      <DependentUpon>AgregarTipoEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultar.Designer.cs">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorteDeCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CorteDeCaja.Designer.cs">
+      <DependentUpon>CorteDeCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistorialDeCortes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistorialDeCortes.Designer.cs">
+      <DependentUpon>HistorialDeCortes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaEmpleado.Designer.cs">
+      <DependentUpon>ListaEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaTipoEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaTipoEmpleados.Designer.cs">
+      <DependentUpon>ListaTipoEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuOpciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuOpciones.Designer.cs">
+      <DependentUpon>MenuOpciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarDueño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarDueño.Designer.cs">
+      <DependentUpon>ModificarDueño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarEmpleado.Designer.cs">
+      <DependentUpon>ModificarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarMascota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarMascota.Designer.cs">
+      <DependentUpon>ModificarMascota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaConsulta.Designer.cs">
+      <DependentUpon>NuevaConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receta.Designer.cs">
+      <DependentUpon>Receta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistaDueño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaDueño.Designer.cs">
+      <DependentUpon>VistaDueño.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdministrarDueño.resx">
+      <DependentUpon>AdministrarDueño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarDueño.resx">
+      <DependentUpon>AgregarDueño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarEmpleado.resx">
+      <DependentUpon>AgregarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarMascota.resx">
+      <DependentUpon>AgregarMascota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarTipoEmpleado.resx">
+      <DependentUpon>AgregarTipoEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultar.resx">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorteDeCaja.resx">
+      <DependentUpon>CorteDeCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistorialDeCortes.resx">
+      <DependentUpon>HistorialDeCortes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaEmpleado.resx">
+      <DependentUpon>ListaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaTipoEmpleados.resx">
+      <DependentUpon>ListaTipoEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuOpciones.resx">
+      <DependentUpon>MenuOpciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarDueño.resx">
+      <DependentUpon>ModificarDueño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarEmpleado.resx">
+      <DependentUpon>ModificarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarMascota.resx">
+      <DependentUpon>ModificarMascota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaConsulta.resx">
+      <DependentUpon>NuevaConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Receta.resx">
+      <DependentUpon>Receta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaDueño.resx">
+      <DependentUpon>VistaDueño.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Regresar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consulta 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri--upload-2-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri--draft-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri--group-3-fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri--file-chart-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri--file-upload-fill.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
