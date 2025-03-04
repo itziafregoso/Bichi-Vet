@@ -52,153 +52,153 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdministrarDueño.cs">
+    <Compile Include="Pantallas Itzia\AdministrarDueño.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdministrarDueño.Designer.cs">
+    <Compile Include="Pantallas Itzia\AdministrarDueño.Designer.cs">
       <DependentUpon>AdministrarDueño.cs</DependentUpon>
     </Compile>
-    <Compile Include="AgregarDueño.cs">
+    <Compile Include="Pantallas Itzia\AgregarDueño.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AgregarDueño.Designer.cs">
+    <Compile Include="Pantallas Itzia\AgregarDueño.Designer.cs">
       <DependentUpon>AgregarDueño.cs</DependentUpon>
     </Compile>
-    <Compile Include="AgregarEmpleado.cs">
+    <Compile Include="Pantallas Itzia\AgregarEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AgregarEmpleado.Designer.cs">
+    <Compile Include="Pantallas Itzia\AgregarEmpleado.Designer.cs">
       <DependentUpon>AgregarEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="AgregarMascota.cs">
+    <Compile Include="Pantallas Itzia\AgregarMascota.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AgregarMascota.Designer.cs">
+    <Compile Include="Pantallas Itzia\AgregarMascota.Designer.cs">
       <DependentUpon>AgregarMascota.cs</DependentUpon>
     </Compile>
-    <Compile Include="AgregarTipoEmpleado.cs">
+    <Compile Include="Pantallas Itzia\AgregarTipoEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AgregarTipoEmpleado.Designer.cs">
+    <Compile Include="Pantallas Itzia\AgregarTipoEmpleado.Designer.cs">
       <DependentUpon>AgregarTipoEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Consultar.cs">
+    <Compile Include="Pantallas Itzia\Consultar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultar.Designer.cs">
+    <Compile Include="Pantallas Itzia\Consultar.Designer.cs">
       <DependentUpon>Consultar.cs</DependentUpon>
     </Compile>
-    <Compile Include="CorteDeCaja.cs">
+    <Compile Include="Pantallas Itzia\CorteDeCaja.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CorteDeCaja.Designer.cs">
+    <Compile Include="Pantallas Itzia\CorteDeCaja.Designer.cs">
       <DependentUpon>CorteDeCaja.cs</DependentUpon>
     </Compile>
-    <Compile Include="HistorialDeCortes.cs">
+    <Compile Include="Pantallas Itzia\HistorialDeCortes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HistorialDeCortes.Designer.cs">
+    <Compile Include="Pantallas Itzia\HistorialDeCortes.Designer.cs">
       <DependentUpon>HistorialDeCortes.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaEmpleado.cs">
+    <Compile Include="Pantallas Itzia\ListaEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListaEmpleado.Designer.cs">
+    <Compile Include="Pantallas Itzia\ListaEmpleado.Designer.cs">
       <DependentUpon>ListaEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaTipoEmpleados.cs">
+    <Compile Include="Pantallas Itzia\ListaTipoEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListaTipoEmpleados.Designer.cs">
+    <Compile Include="Pantallas Itzia\ListaTipoEmpleados.Designer.cs">
       <DependentUpon>ListaTipoEmpleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuOpciones.cs">
+    <Compile Include="Pantallas Itzia\MenuOpciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuOpciones.Designer.cs">
+    <Compile Include="Pantallas Itzia\MenuOpciones.Designer.cs">
       <DependentUpon>MenuOpciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModificarDueño.cs">
+    <Compile Include="Pantallas Itzia\ModificarDueño.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModificarDueño.Designer.cs">
+    <Compile Include="Pantallas Itzia\ModificarDueño.Designer.cs">
       <DependentUpon>ModificarDueño.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModificarEmpleado.cs">
+    <Compile Include="Pantallas Itzia\ModificarEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModificarEmpleado.Designer.cs">
+    <Compile Include="Pantallas Itzia\ModificarEmpleado.Designer.cs">
       <DependentUpon>ModificarEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModificarMascota.cs">
+    <Compile Include="Pantallas Itzia\ModificarMascota.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModificarMascota.Designer.cs">
+    <Compile Include="Pantallas Itzia\ModificarMascota.Designer.cs">
       <DependentUpon>ModificarMascota.cs</DependentUpon>
     </Compile>
-    <Compile Include="NuevaConsulta.cs">
+    <Compile Include="Pantallas Itzia\NuevaConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NuevaConsulta.Designer.cs">
+    <Compile Include="Pantallas Itzia\NuevaConsulta.Designer.cs">
       <DependentUpon>NuevaConsulta.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Receta.cs">
+    <Compile Include="Pantallas Itzia\Receta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Receta.Designer.cs">
+    <Compile Include="Pantallas Itzia\Receta.Designer.cs">
       <DependentUpon>Receta.cs</DependentUpon>
     </Compile>
-    <Compile Include="VistaDueño.cs">
+    <Compile Include="Pantallas Itzia\VistaDueño.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VistaDueño.Designer.cs">
+    <Compile Include="Pantallas Itzia\VistaDueño.Designer.cs">
       <DependentUpon>VistaDueño.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AdministrarDueño.resx">
+    <EmbeddedResource Include="Pantallas Itzia\AdministrarDueño.resx">
       <DependentUpon>AdministrarDueño.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AgregarDueño.resx">
+    <EmbeddedResource Include="Pantallas Itzia\AgregarDueño.resx">
       <DependentUpon>AgregarDueño.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AgregarEmpleado.resx">
+    <EmbeddedResource Include="Pantallas Itzia\AgregarEmpleado.resx">
       <DependentUpon>AgregarEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AgregarMascota.resx">
+    <EmbeddedResource Include="Pantallas Itzia\AgregarMascota.resx">
       <DependentUpon>AgregarMascota.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AgregarTipoEmpleado.resx">
+    <EmbeddedResource Include="Pantallas Itzia\AgregarTipoEmpleado.resx">
       <DependentUpon>AgregarTipoEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consultar.resx">
+    <EmbeddedResource Include="Pantallas Itzia\Consultar.resx">
       <DependentUpon>Consultar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CorteDeCaja.resx">
+    <EmbeddedResource Include="Pantallas Itzia\CorteDeCaja.resx">
       <DependentUpon>CorteDeCaja.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HistorialDeCortes.resx">
+    <EmbeddedResource Include="Pantallas Itzia\HistorialDeCortes.resx">
       <DependentUpon>HistorialDeCortes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaEmpleado.resx">
+    <EmbeddedResource Include="Pantallas Itzia\ListaEmpleado.resx">
       <DependentUpon>ListaEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaTipoEmpleados.resx">
+    <EmbeddedResource Include="Pantallas Itzia\ListaTipoEmpleados.resx">
       <DependentUpon>ListaTipoEmpleados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuOpciones.resx">
+    <EmbeddedResource Include="Pantallas Itzia\MenuOpciones.resx">
       <DependentUpon>MenuOpciones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModificarDueño.resx">
+    <EmbeddedResource Include="Pantallas Itzia\ModificarDueño.resx">
       <DependentUpon>ModificarDueño.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModificarEmpleado.resx">
+    <EmbeddedResource Include="Pantallas Itzia\ModificarEmpleado.resx">
       <DependentUpon>ModificarEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModificarMascota.resx">
+    <EmbeddedResource Include="Pantallas Itzia\ModificarMascota.resx">
       <DependentUpon>ModificarMascota.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NuevaConsulta.resx">
+    <EmbeddedResource Include="Pantallas Itzia\NuevaConsulta.resx">
       <DependentUpon>NuevaConsulta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -211,10 +211,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Receta.resx">
+    <EmbeddedResource Include="Pantallas Itzia\Receta.resx">
       <DependentUpon>Receta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VistaDueño.resx">
+    <EmbeddedResource Include="Pantallas Itzia\VistaDueño.resx">
       <DependentUpon>VistaDueño.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
