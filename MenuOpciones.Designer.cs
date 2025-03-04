@@ -49,10 +49,12 @@
             this.btnMinimizar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.PictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pnlMenu.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.PnlEncabezado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlMenu
@@ -324,6 +326,20 @@
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // PictureBox1
+            // 
+            this.PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.PictureBox1.Image = global::BichiVet.Properties.Resources.bichilogo;
+            this.PictureBox1.ImageRotate = 0F;
+            this.PictureBox1.Location = new System.Drawing.Point(413, 139);
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.PictureBox1.Size = new System.Drawing.Size(500, 500);
+            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.PictureBox1.TabIndex = 30;
+            this.PictureBox1.TabStop = false;
+            this.PictureBox1.UseTransparentBackground = true;
+            // 
             // MenuOpciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -331,6 +347,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(197)))), ((int)(((byte)(185)))));
             this.ClientSize = new System.Drawing.Size(1300, 700);
+            this.Controls.Add(this.PictureBox1);
             this.Controls.Add(this.PnlEncabezado);
             this.Font = new System.Drawing.Font("Cascadia Mono", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -343,6 +360,7 @@
             this.PnlEncabezado.ResumeLayout(false);
             this.PnlEncabezado.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -368,5 +386,6 @@
         private System.Windows.Forms.ToolStripMenuItem TSMICorteCaja;
         private System.Windows.Forms.ToolStripMenuItem TSMIHistorialCorteCaja;
         private System.Windows.Forms.MenuStrip menuStrip2;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox PictureBox1;
     }
 }

@@ -291,5 +291,8 @@
   <ItemGroup>
     <None Include="Resources\ri--file-upload-fill.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bichilogo.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
